@@ -1,0 +1,33 @@
+.news{
+    margin-top: 50px;
+    &__content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap:  30px;
+    }
+    &__block{
+        &-articles{
+            display: flex;
+            gap:  30px;
+        }
+        &_img{
+            max-width: 253.45px;
+            max-height: 350px;
+        }
+        &_title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 42px;
+            color: #25202F;
+        }
+    }
+}
+
+
+@media (max-width:1100px){
+    .news{
+        &__content{
+            grid-template-columns: 1fr;
+        }
+}
+}
