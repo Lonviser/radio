@@ -10,6 +10,23 @@
             display: flex;
             gap:  30px;
         }
+        &-article{
+            &_time{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #000000;
+                margin-top: 14px;
+                margin-bottom: 8px;
+            }
+            h4{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+                color: #000000;
+            }
+
+        }
         &_img{
             max-width: 253.45px;
             max-height: 350px;
@@ -20,6 +37,7 @@
             line-height: 42px;
             color: #25202F;
         }
+
     }
 }
 

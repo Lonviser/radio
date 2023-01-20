@@ -49,119 +49,142 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Red+Hat+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__content">
-                <div class="header__logo">
-                    <img src="./img/header_logo.svg" alt="logo">
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header__content">
+                        <div class="header__logo">
+                            <img src="./img/header_logo.svg" alt="logo">
+                        </div>
+                        <div class="header__descr">
+                            НЕЗАБЫВАЕМЫЕ МГНОВЕНИЯ ВАШЕЙ ЖИЗНИ
+                        </div>
+                        <div class="header__social">
+                            <a class="header__social-link" href="https://vk.com/dushevnoeradio" target="_blank">
+                                <img src="./icons/social/vk.svg" alt="Вконтакте" class="header__social-icons">
+                            </a>
+                            <a class="header__social-link" href="https://t.me/dushevnoeradiochat"  target="_blank">
+                                <img src="./icons/social/tg.svg" alt="Телеграм" class="header__social-icons">
+                            </a>
+                            <a class="header__social-link" href="https://www.instagram.com/dushevnoeradio/" target="_blank">
+                                <img src="./icons/social/inst.svg" alt="Инстаграм" class="header__social-icons">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="header__descr">
-                    НЕЗАБЫВАЕМЫЕ МГНОВЕНИЯ ВАШЕЙ ЖИЗНИ
-                </div>
-                <div class="header__social">
-                    <a class="header__social-link" href="https://vk.com/dushevnoeradio" target="_blank">
-                        <img src="./icons/social/vk.svg" alt="Вконтакте" class="header__social-icons">
-                    </a>
-                    <a class="header__social-link" href="https://t.me/dushevnoeradiochat"  target="_blank">
-                        <img src="./icons/social/tg.svg" alt="Телеграм" class="header__social-icons">
-                    </a>
-                    <a class="header__social-link" href="https://www.instagram.com/dushevnoeradio/" target="_blank">
-                        <img src="./icons/social/inst.svg" alt="Инстаграм" class="header__social-icons">
-                    </a>
+            </header>
+            <div class="container">
+                <div class="main-container">
+                    <aside class="radio">
+                        <h2 class="radio__heading">Сейчас в эфире:</h2>
+                        <img src="./img/dushevnoe-radio.svg" alt="Душевное радио. Логотип" class="radio__logo">
+                        <select class="radio__select">
+                            <option>Минск 105.7     </option>
+                            <option>Гомель - 106.0  </option>
+                            <option>Гродно - 88.2   </option>
+                            <option>Могилёв - 102.1 </option>
+                          </select>
+                          <audio controls class="radio__player">
+                            <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/ogg; codecs=vorbis">
+                            <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/mpeg">
+                            Тег audio не поддерживается вашим браузером. 
+                            <a href="https://stream.hoster.by/pilotfm/audio/icecast.audio">Скачайте музыку</a>.
+                          </audio>
+                        <audio src=> </audio>
+                        <div class="radio__add">
+                            <img src="./img/advertising.png" alt="Реклама">
+        
+                        </div>
+                        <h3 class="radio__earlier">Что играло ранее:</h3>
+                    </aside>
+                    <main>
+                        <section class="promo">
+                            <div class="promo__blocks1">
+                                <div class="promo__block promo__block_main">
+                                    <h1><span class="promo_name">Душевное Радио</span> - новая станция в 
+                                        белорусском FM-диапазоне. </h1>
+                                    <h2>
+                                        Города эфирного вещания: <br>
+                                            Минск - 105.7 FM <br>
+                                            Гомель - 106.0 FM <br>
+                                            Гродно - 88.2 FM <br>
+                                            Могилёв - 102.1 FM 
+                                    </h2>
+                                </div>
+                                <div class="promo__block">
+                                    <div class="add">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promo__blocks2">
+                                <div class="promo__block">
+                                    <div class="add"></div>
+                                </div>
+                                <div class="promo__block promo__block_info">
+                                    <p>Наш формат – это музыкальное путешествие по Вашим любимым мелодиям, которые напомнят вам о самых важных и незабываемых моментах в вашей жизни. Каждая песня, звучащая в эфире Душевного Радио, с любовью отобрана для вас нашими специалистами. 
+                                    </p>
+                                    <p>Мы считаем, что атмосфера важнее стилей. Наша цель – украсить ваш день и создать душевную атмосферу в вашем авто, доме, офисе, на пикнике или даче. Где бы вы ни находились – с нами всегда легко!</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="news">
+                            <div class="news__content">
+                                <div class="news__block-name">
+                                    <h3 class="heading__title">Новости</h3>
+                                    <div class="heading__hr"> </div>
+                                    <h3 class="news__block_title">Актуальные <br> события</h3>
+                                </div>
+                                <div class="news__block-articles">
+                                    <div class="news__block-article">
+                                        <div class="news__block_img">
+                                            <img  src="./img/news1.png" alt="">
+                                        </div>
+        
+                                        <div class="news__block-article_time">
+                                            18/01/2023
+                                        </div>
+                                        <h4>У нас важное объявление</h4>
+                                    </div>
+                                    <div class="news__block-article">
+                                        <div class="news__block_img">
+                                            <img  src="./img/news2.png" alt="">
+                                        </div>
+                                            <div class="news__block-article_time">
+                                            18/01/2023
+                                        </div>
+                                        <h4>У нас важное объявление</h4>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </section>
+                        <section class="info">
+                            <div class="info__blocks">
+                                <div class="info__banner">
+                                    <img src="./img/Anika.png" alt="Креативная студия АникА">
+                                </div>
+                                <div class="info__widget">
+                                    <img src="./img/vidget.png" alt="">
+                                </div>
+                            </div>
+                            <div class="info__addBanner">
+
+                            </div>
+        
+                            
+                        </section>
+                    </main>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="container">
-        <div class="main-container">
-            <aside class="radio">
-                <h2 class="radio__heading">Сейчас в эфире:</h2>
-                <img src="./img/dushevnoe-radio.svg" alt="Душевное радио. Логотип" class="radio__logo">
-                <select class="radio__select">
-                    <option>Минск 105.7     </option>
-                    <option>Гомель - 106.0  </option>
-                    <option>Гродно - 88.2   </option>
-                    <option>Могилёв - 102.1 </option>
-                  </select>
-                  <audio controls class="radio__player">
-                    <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/ogg; codecs=vorbis">
-                    <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/mpeg">
-                    Тег audio не поддерживается вашим браузером. 
-                    <a href="https://stream.hoster.by/pilotfm/audio/icecast.audio">Скачайте музыку</a>.
-                  </audio>
-                <audio src=> </audio>
-                <div class="radio__add">
-                    <img src="./img/advertising.png" alt="Реклама">
+    
+    <footer class="footer">
 
-                </div>
-                <h3 class="radio__earlier">Что играло ранее:</h3>
-            </aside>
-            <main>
-                <section class="promo">
-                    <div class="promo__blocks1">
-                        <div class="promo__block promo__block_main">
-                            <h1><span class="promo_name">Душевное Радио</span> - новая станция в 
-                                белорусском FM-диапазоне. </h1>
-                            <h2>
-                                Города эфирного вещания: <br>
-                                    Минск - 105.7 FM <br>
-                                    Гомель - 106.0 FM <br>
-                                    Гродно - 88.2 FM <br>
-                                    Могилёв - 102.1 FM 
-                            </h2>
-                        </div>
-                        <div class="promo__block">
-                            <div class="add">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="promo__blocks2">
-                        <div class="promo__block">
-                            <div class="add"></div>
-                        </div>
-                        <div class="promo__block promo__block_info">
-                            <p>Наш формат – это музыкальное путешествие по Вашим любимым мелодиям, которые напомнят вам о самых важных и незабываемых моментах в вашей жизни. Каждая песня, звучащая в эфире Душевного Радио, с любовью отобрана для вас нашими специалистами. 
-                            </p>
-                            <p>Мы считаем, что атмосфера важнее стилей. Наша цель – украсить ваш день и создать душевную атмосферу в вашем авто, доме, офисе, на пикнике или даче. Где бы вы ни находились – с нами всегда легко!</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="news">
-                    <div class="news__content">
-                        <div class="news__block-name">
-                            <h3>Новости</h3>
-                            <hr class="news__hr">
-                            <h3 class="news__block_title">Актуальные <br> события</h3>
-                        </div>
-                        <div class="news__block-articles">
-                            <div class="news__block-article">
-                                <div class="news__block_img">
-                                    <img  src="./img/news1.png" alt="">
-                                </div>
-
-                                <div class="news__block-article_time">
-                                    18/01/2023
-                                </div>
-                                <h4>У нас важное объявление</h4>
-                            </div>
-                            <div class="news__block-article">
-                                <div class="news__block_img">
-                                    <img  src="./img/news2.png" alt="">
-                                </div>
-                                    <div class="news__block-article_time">
-                                    18/01/2023
-                                </div>
-                                <h4>У нас важное объявление</h4>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-            </main>
-        </div>
+    </footer>
     </div>
-
     <script src="js/script.js"></script>
 </body>
 </html>

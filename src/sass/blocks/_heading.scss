@@ -1,0 +1,16 @@
+.heading{
+    &__hr{
+        display:block;
+        width: 50.13px;
+        background-color :$main-color;
+        border-radius:20%;
+        height: 2px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #E22949;
+    }
+}

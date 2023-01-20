@@ -1,0 +1,15 @@
+.info{
+    margin-top: 50px;
+    &__blocks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 27px;
+    }
+    &__addBanner{
+        margin-top: 50px;
+        background: #CBCBCB;
+        border-radius: 20px;
+        height: 234px;
+        width: 100%;
+    }
+}
