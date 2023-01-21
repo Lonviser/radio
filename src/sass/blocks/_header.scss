@@ -33,3 +33,22 @@
         }
     }
 }
+
+@media (max-width:700px){
+    .header{
+        &__descr{
+            display: none;
+        }
+    }
+}
+
+@media (max-width:400px){
+    .header{
+        &__social{
+            display: none;
+        }
+    }
+    .tgme_widget_message_bubble {
+        width: 74%;
+    }
+}

@@ -32,3 +32,11 @@
         margin-bottom: 21px;
     }
 }
+
+@media(max-width:1000px){
+    .hedading{
+        &__footer{
+            margin-bottom: 15px;
+        }
+    }
+}

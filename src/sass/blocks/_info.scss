@@ -13,3 +13,37 @@
         width: 100%;
     }
 }
+
+@media(max-width:1120px){
+    .info{
+        &__blocks{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media(max-width:1000px){
+    .info{
+        &__widget{
+            img{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media(max-width:540px){
+    .info{
+        &__banner{
+            img{
+                width:100%;
+            }
+        }
+        &__widget{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}

@@ -65,10 +65,16 @@
             grid-template-columns: 1fr;
         }
         &__blocks2{
-            grid-template-columns: 1fr ;
+            margin-top: 23px;
+            display: flex;
+            flex-direction: column-reverse;
         }
         .add{
             height: 250px;
         }
+        &_info{
+            order: 1;
+        }
 }
+
 }

@@ -80,20 +80,24 @@
                 <div class="main-container">
                     <aside class="radio">
                         <h2 class="radio__heading">Сейчас в эфире:</h2>
-                        <img src="./img/dushevnoe-radio.svg" alt="Душевное радио. Логотип" class="radio__logo">
-                        <select class="radio__select">
-                            <option>Минск 105.7     </option>
-                            <option>Гомель - 106.0  </option>
-                            <option>Гродно - 88.2   </option>
-                            <option>Могилёв - 102.1 </option>
-                          </select>
-                          <audio controls class="radio__player">
-                            <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/ogg; codecs=vorbis">
-                            <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/mpeg">
-                            Тег audio не поддерживается вашим браузером. 
-                            <a href="https://stream.hoster.by/pilotfm/audio/icecast.audio">Скачайте музыку</a>.
-                          </audio>
-                        <audio src=> </audio>
+                        <div class="radio__content">
+                            <img src="./img/dushevnoe-radio.svg" alt="Душевное радио. Логотип" class="radio__logo">
+                            <div class="radio__controller">
+                                <select class="radio__select">
+                                    <option>Минск 105.7     </option>
+                                    <option>Гомель - 106.0  </option>
+                                    <option>Гродно - 88.2   </option>
+                                    <option>Могилёв - 102.1 </option>
+                                  </select>
+                                  <audio controls class="radio__player">
+                                    <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/ogg; codecs=vorbis">
+                                    <source src="https://stream.hoster.by/pilotfm/audio/icecast.audio" type="audio/mpeg">
+                                    Тег audio не поддерживается вашим браузером. 
+                                    <a href="https://stream.hoster.by/pilotfm/audio/icecast.audio">Скачайте музыку</a>.
+                                  </audio>
+                                <audio src=> </audio>
+                            </div>
+                        </div>
                         <div class="radio__add">
                             <img src="./img/advertising.png" alt="Реклама">
         
@@ -142,20 +146,20 @@
                                         <div class="news__block_img">
                                             <img  src="./img/news1.png" alt="">
                                         </div>
-        
-                                        <div class="news__block-article_time">
-                                            18/01/2023
+                                        <div class="news__block-descr">
+                                            <div class="news__block-article_time">18/01/2023</div>
+                                            <h4>У нас важное объявление</h4>
                                         </div>
-                                        <h4>У нас важное объявление</h4>
                                     </div>
                                     <div class="news__block-article">
                                         <div class="news__block_img">
                                             <img  src="./img/news2.png" alt="">
                                         </div>
-                                            <div class="news__block-article_time">
-                                            18/01/2023
+                                        <div class="news__block-descr">
+                                            <div class="news__block-article_time">18/01/2023</div>
+                                            <h4>У нас важное объявление</h4>
                                         </div>
-                                        <h4>У нас важное объявление</h4>
+
                                     </div>
         
                                 </div>

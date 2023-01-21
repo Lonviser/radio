@@ -44,3 +44,38 @@
         }
 }
 }
+
+@media (max-width:945px){
+    .news{
+        &__block{
+            &-articles{
+                flex-direction: column;
+            }
+            &-article{
+                display: flex;
+                gap: 20px;
+            }
+        }
+}
+}
+
+@media (max-width:760px){
+    .news{
+        &__block{
+            &-article{
+                flex-direction: column;
+            }
+        }
+}
+}
+
+@media (max-width: 760px){
+    .news__block-article {
+         flex-direction: row; 
+    }
+}
+@media (max-width: 460px){
+    .news__block-article {
+         flex-direction: column;
+    }
+}

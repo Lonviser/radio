@@ -10,3 +10,19 @@
         border-radius: 20px;
     }
 }
+
+@media (max-width:1000px){
+    .community{
+        &__content{
+            grid-template-columns: 1fr;
+        }
+        &__ad{
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width:400px){
+    .community{
+        display: none;
+    }}
