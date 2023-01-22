@@ -64,6 +64,58 @@
     }
 }
 
+audio {
+  width: 300px;
+  height: 30px;
+}
+audio::-webkit-media-controls,
+video::-webkit-media-controls {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+audio::-webkit-media-controls-enclosure, video::-webkit-media-controls-enclosure {
+  width: 100%;
+  max-width: 800px;
+  height: 30px;
+  flex-shrink: 0;
+  bottom: 0;
+  text-indent: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+video::-webkit-media-controls-enclosure {
+  padding: 0px 5px 5px 5px;
+  height: 35px;
+  flex-shrink: 0;
+}
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* We use flex-start here to ensure that the play button is visible even
+   * if we are too small to show all controls.
+   */
+  justify-content: flex-start;
+  -webkit-user-select: none;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  text-align: right;
+  bottom: auto;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  /* The duration is also specified in MediaControlElements.cpp and LayoutTests/media/media-controls.js */
+  transition: opacity 0.3s;
+}
+
 
 @import 'blocks/header';
 @import 'blocks/radio';
