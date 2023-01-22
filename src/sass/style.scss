@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   html,
   body {
     height: 100%;
@@ -115,6 +118,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
   /* The duration is also specified in MediaControlElements.cpp and LayoutTests/media/media-controls.js */
   transition: opacity 0.3s;
 }
+
 
 
 @import 'blocks/header';
