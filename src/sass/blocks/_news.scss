@@ -36,8 +36,16 @@
     }
 }
 
+@media(max-width:1157px){
+    img.attachment-254x350.size-254x350.wp-post-image {
+        width: 80%;
+    }
+}
 
 @media (max-width:1100px){
+    img.attachment-254x350.size-254x350.wp-post-image {
+        width: 100%;
+    }
     .news{
         &__content{
             grid-template-columns: 1fr;
@@ -48,9 +56,7 @@
 @media (max-width:945px){
     .news{
         &__block{
-            &-articles{
-                flex-direction: column;
-            }
+         
             &-article{
                 display: flex;
                 gap: 20px;

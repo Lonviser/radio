@@ -1,6 +1,6 @@
 .radio{ 
     background: #FFFFFF;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding-left: 45px;
     padding-right: 45px;
@@ -8,7 +8,7 @@
     padding-bottom: 45px;
     width: 300px;
     position: sticky;
-    max-height: 900px;
+    max-height: 1025px;
     top: 0;
     &__heading{
         font-style: normal;
@@ -38,19 +38,23 @@
     &__player{
         width: 100%;
         margin-top: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     &__earlier{
         margin-top: 22px;
     }
 }
 
+.radio__add {
+    margin-top: 10px;
+}
 
 @media(max-width:700px){
     .radio{
         position: relative;
         width: 100%;
         margin-bottom: 50px;
+        max-height: 100%;
         &__content{
             display: flex;
             gap: 20px;
@@ -61,8 +65,10 @@
     }
 }
 
-@media(max-width:460px){
+@media(max-width:550px){
     .radio{
+        padding-left: 25px;
+        padding-right: 25px;
         &__content{
             flex-direction: column;
         }
